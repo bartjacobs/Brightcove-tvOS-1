@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4910CD9B1C91DB4B00016798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910CD9A1C91DB4B00016798 /* AppDelegate.swift */; };
+		4910CD9D1C91DB4B00016798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910CD9C1C91DB4B00016798 /* ViewController.swift */; };
+		4910CDA01C91DB4B00016798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4910CD9E1C91DB4B00016798 /* Main.storyboard */; };
+		4910CDA21C91DB4B00016798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4910CDA11C91DB4B00016798 /* Assets.xcassets */; };
+		AA0C9401206C291E007A716A /* SampleTabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0C9400206C291E007A716A /* SampleTabBarItemView.swift */; };
+		F16389BE16D142D64DD7E7F2 /* Pods_AppleTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB577ACD19DAA042188AEB3E /* Pods_AppleTV.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA0C93FF206BCECE007A716A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F9C7695C68B9BA69BBA358D /* Pods-AppleTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppleTV/Pods-AppleTV.debug.xcconfig"; sourceTree = "<group>"; };
+		4910CD971C91DB4A00016798 /* AppleTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4910CD9A1C91DB4B00016798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4910CD9C1C91DB4B00016798 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4910CD9F1C91DB4B00016798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4910CDA11C91DB4B00016798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4910CDA31C91DB4B00016798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79AF141B3ABD1EAD237E052A /* Pods-AppleTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppleTV/Pods-AppleTV.release.xcconfig"; sourceTree = "<group>"; };
+		AA0C9400206C291E007A716A /* SampleTabBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTabBarItemView.swift; sourceTree = "<group>"; };
+		BB577ACD19DAA042188AEB3E /* Pods_AppleTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4910CD941C91DB4A00016798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16389BE16D142D64DD7E7F2 /* Pods_AppleTV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4910CD8E1C91DB4A00016798 = {
+			isa = PBXGroup;
+			children = (
+				4910CD991C91DB4B00016798 /* AppleTV */,
+				4910CD981C91DB4A00016798 /* Products */,
+				BD51C1D5826D28E0E0F199AF /* Frameworks */,
+				F97F3A67ECDA80CDF55252CA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4910CD981C91DB4A00016798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4910CD971C91DB4A00016798 /* AppleTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4910CD991C91DB4B00016798 /* AppleTV */ = {
+			isa = PBXGroup;
+			children = (
+				4910CD9A1C91DB4B00016798 /* AppDelegate.swift */,
+				4910CD9C1C91DB4B00016798 /* ViewController.swift */,
+				AA0C9400206C291E007A716A /* SampleTabBarItemView.swift */,
+				4910CD9E1C91DB4B00016798 /* Main.storyboard */,
+				4910CDA11C91DB4B00016798 /* Assets.xcassets */,
+				4910CDA31C91DB4B00016798 /* Info.plist */,
+			);
+			path = AppleTV;
+			sourceTree = "<group>";
+		};
+		BD51C1D5826D28E0E0F199AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB577ACD19DAA042188AEB3E /* Pods_AppleTV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F97F3A67ECDA80CDF55252CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F9C7695C68B9BA69BBA358D /* Pods-AppleTV.debug.xcconfig */,
+				79AF141B3ABD1EAD237E052A /* Pods-AppleTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4910CD961C91DB4A00016798 /* AppleTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4910CDA61C91DB4B00016798 /* Build configuration list for PBXNativeTarget "AppleTV" */;
+			buildPhases = (
+				AF37184E7C24351867642FC7 /* [CP] Check Pods Manifest.lock */,
+				4910CD931C91DB4A00016798 /* Sources */,
+				4910CD941C91DB4A00016798 /* Frameworks */,
+				4910CD951C91DB4A00016798 /* Resources */,
+				AA0C93FF206BCECE007A716A /* Embed Frameworks */,
+				3647BBF0C70FB76E9C0B0118 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleTV;
+			productName = AppleTV;
+			productReference = 4910CD971C91DB4A00016798 /* AppleTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4910CD8F1C91DB4A00016798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Brightcove;
+				TargetAttributes = {
+					4910CD961C91DB4A00016798 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0920;
+					};
+				};
+			};
+			buildConfigurationList = 4910CD921C91DB4A00016798 /* Build configuration list for PBXProject "AppleTV" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4910CD8E1C91DB4A00016798;
+			productRefGroup = 4910CD981C91DB4A00016798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4910CD961C91DB4A00016798 /* AppleTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4910CD951C91DB4A00016798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4910CDA21C91DB4B00016798 /* Assets.xcassets in Resources */,
+				4910CDA01C91DB4B00016798 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3647BBF0C70FB76E9C0B0118 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AppleTV/Pods-AppleTV-frameworks.sh",
+				"${PODS_ROOT}/Brightcove-Player-Core/tvos/BrightcovePlayerSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BrightcovePlayerSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppleTV/Pods-AppleTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF37184E7C24351867642FC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppleTV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4910CD931C91DB4A00016798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4910CD9D1C91DB4B00016798 /* ViewController.swift in Sources */,
+				4910CD9B1C91DB4B00016798 /* AppDelegate.swift in Sources */,
+				AA0C9401206C291E007A716A /* SampleTabBarItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4910CD9E1C91DB4B00016798 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4910CD9F1C91DB4B00016798 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4910CDA41C91DB4B00016798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		4910CDA51C91DB4B00016798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4910CDA71C91DB4B00016798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F9C7695C68B9BA69BBA358D /* Pods-AppleTV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AppleTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightcove.AppleTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		4910CDA81C91DB4B00016798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79AF141B3ABD1EAD237E052A /* Pods-AppleTV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AppleTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightcove.AppleTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4910CD921C91DB4A00016798 /* Build configuration list for PBXProject "AppleTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4910CDA41C91DB4B00016798 /* Debug */,
+				4910CDA51C91DB4B00016798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4910CDA61C91DB4B00016798 /* Build configuration list for PBXNativeTarget "AppleTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4910CDA71C91DB4B00016798 /* Debug */,
+				4910CDA81C91DB4B00016798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4910CD8F1C91DB4A00016798 /* Project object */;
+}
